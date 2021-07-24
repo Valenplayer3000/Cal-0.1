@@ -1,13 +1,11 @@
 <html>
 <body>
-<!--Set the Css Style-->
     <style>
         body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: black;}
         h2   {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; color: white;}
         p    {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; color: white;}
-        button {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white; box-shadow: 5px; background-color: rgb(77, 77, 77);}
+        button {font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white; box-shadow: 50%; background-color: rgb(77, 77, 77);}
 </style>
-
 <title>Cal 0.1.1</title>
 <h2>Cal 0.1.1</h2>
 
@@ -15,7 +13,6 @@
 <br>
 <p id="demo1"></p>
 <br>
-<!--Buttons-->
 <button type="button" onclick="myFunction1()">1</button>
 <button type="button" onclick="myFunction2()">2</button>
 <button type="button" onclick="myFunction3()">3</button>
@@ -36,13 +33,12 @@
 <br>
 <pre><button onclick="result()">        =        </button></pre>
 <br>
-<h3>Settings</h3>
 <iframe src="About.html" frameborder="0" height="1000px" width="1000px"></p></iframe>
 
 
 <script>
-var mode = 1; //The cal 0.1.1 have mode
-var op = "" ; //The op var 
+var mode = 1; //The cal 0.1.1 have mode(I made that.-.)
+var op = "" ; 
 var num1 = 0;
 var num2 = 0;
 var res = 0;
