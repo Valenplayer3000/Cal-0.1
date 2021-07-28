@@ -1,13 +1,19 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: black;
+    flex-shrink: initial;
 }
 
 h2   {
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; color: white;
+flex-shrink: initial;
 }
 p    {
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; color: white;
+flex-shrink: initial ;
 }
 button {
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white; border-radius: 5px;  background-color: grey;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: white;
+border-radius: 5x;
+flex-shrink: initial;
 }
