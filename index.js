@@ -1,8 +1,8 @@
-var mode = 1; //The cal 0.1.1 have mode
+var mode = 1; //The mode var
 var op = "" ; //The op var 
-var num1 = 0;
-var num2 = 0;
-var res = 0;
+var num1 = 0; //The number 1
+var num2 = 0; //The number 2
+var res = 0;  //Result
 
 function myFunction1() {
  if (mode == 1){
@@ -118,6 +118,7 @@ function sum(){
     if (mode == 2){
     op = "+";
     mode = 3;
+    document.getElementById("demo1").innerHTML = "+";
     }
     
 }
@@ -125,18 +126,21 @@ function minus(){
  if (mode == 2){
      op = "-";
      mode = 3;
+     document.getElementById("demo1").innerHTML = "-";
  }
 }
 function multi(){
     if(mode == 2){
         op = "*";
         mode = "3"
+        document.getElementById("demo1").innerHTML = "*";
     }
 }
 function div(){
     if (mode == 2){
         op = "/";
         mode = 3;
+        document.getElementById("demo1").innerHTML = "/";
     }
 }
 function result(){
@@ -154,5 +158,23 @@ if (op == "+") {
 }else if (op == "/"){
     document.getElementById("demo1").innerHTML = num1 / num2;
 }
+
 }
+}
+function  myFunction10(){
+    if (mode == 2){
+        mode = 1;
+        op = "";
+    document.getElementById("demo1").innerHTML = "Cleared!";
+    }else if (mode == 3){
+        mode = 1;
+        op = "";
+        document.getElementById("demo1").innerHTML = "Cleared!";
+    }else if (mode == 4){
+        mode = 1;
+        op = "";
+    document.getElementById("demo1").innerHTML = "Cleared!";
+    }else if (mode == 1){
+        alert("Error: No number have selected!");
+    }
 }

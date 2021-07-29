@@ -1,15 +1,16 @@
 <html>
-<link rel="stylesheet" herf="style.css">
 <body>
 
 <title>Cal 0.1.1</title>
 <h2>Cal 0.1.1</h2>
 
-<p>A simple Calulator.</p>
+<h4>A simple Calulator.</h4>>
 <br>
 <p id="demo1"></p>
 <br>
 <!--Buttons-->
+<button onclick="myFunction10()">Clear</button>
+<br>
 <button type="button" onclick="myFunction1()">1</button>
 <button type="button" onclick="myFunction2()">2</button>
 <button type="button" onclick="myFunction3()">3</button>
@@ -25,17 +26,47 @@
 <br>
 <button type="button" onclick="sum()">+</button>
 <button onclick="minus()">-</button>
-</button><button onclick="multi()">*</button>
+<button onclick="multi()">*</button>
 <button onclick="div()">/</button>
 <br>
 <pre><button onclick="result()">        =        </button></pre>
 <br>
 <h3>Settings</h3>
-<iframe src="About.html" frameborder="0" height="1000px" width="1000px"></p></iframe>
+<iframe src="About.html" height="1000px" width="1000px"></p></iframe>
 
 
 <script src="index.js">
 </script>
 
 </body>
+<style>
+    body {
+    font-family: sans-serif; 
+    background-color: black;
+}
+
+h2   {
+font-family: sans-serif ; color: white;
+}
+p    {
+font-family: sans-serif ; color: white;
+background-color: slategray;
+border-radius: 10px;
+font-size: 20px;
+
+}
+button {
+font-family: sans-serif; color: rgb(0, 0, 0);
+border-radius: 5x;
+flex-shrink: initial;
+}
+iframe{
+    border-radius: 10px;
+    flex-shrink: initial;
+    border-color: rgb(255, 255, 255);
+}
+h4{
+    color: white;
+}
+</style>
 </html>
