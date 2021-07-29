@@ -166,14 +166,20 @@ function  myFunction10(){
         mode = 1;
         op = "";
     document.getElementById("demo1").innerHTML = "Cleared!";
+    delay(2);
+    document.getElementById("demo1").innerHTML = "";
     }else if (mode == 3){
         mode = 1;
         op = "";
         document.getElementById("demo1").innerHTML = "Cleared!";
+        delay(2);
+        document.getElementById("demo1").innerHTML = "";
     }else if (mode == 4){
         mode = 1;
         op = "";
     document.getElementById("demo1").innerHTML = "Cleared!";
+    delay(2);
+    document.getElementById("demo1").innerHTML = "";
     }else if (mode == 1){
         alert("Error: No number have selected!");
     }
