@@ -5,7 +5,9 @@
 ### 0.2 Update "All rounds in entire page!"
 
 > Removed the css files for use <style> on index.html
+  
 > New "Clear" Buttons
+  
 > Fix on index.js
   
 ### 0.1.1 Update
