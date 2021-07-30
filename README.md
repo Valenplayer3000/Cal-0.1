@@ -1,4 +1,4 @@
-# Cal-0.1
+# Cal-Web
 ## A simple Calculator made in html, CSS and JavaScript.
 
 ## Changelog
