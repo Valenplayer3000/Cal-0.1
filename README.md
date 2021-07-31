@@ -1,3 +1,4 @@
+![Cal-Web.png]
 # Cal-Web
 ## A simple Calculator made in html, CSS and JavaScript.
 
