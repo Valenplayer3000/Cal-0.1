@@ -1,4 +1,4 @@
-![This is new Logo](Cal-Web.png)
+![This is new Logo](Cal-Web(flat).png)
 # Cal-Web
 ## A simple Calculator made in html, CSS and JavaScript.
 
