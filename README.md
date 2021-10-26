@@ -1,3 +1,6 @@
+# OUTDATED REPO! 
+This repo is no longer deveploment, we are sorry for making this repo.
+
 ![This is new Logo](Cal-Web(flat).png)
 # Cal-Web
 ## A simple Calculator made in html, CSS and JavaScript.
